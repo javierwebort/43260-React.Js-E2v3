@@ -1,9 +1,9 @@
-//import React from 'react'
+import React from 'react'
 
-const TituloPrincipal = (props) => {
+const TituloPrincipal = ({titulo, dia}) => {
   return (
     <>
-    <h1> {props.titulo} </h1>
+        <h1> {titulo} </h1>
     </>
   )
 }
